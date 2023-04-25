@@ -12,13 +12,13 @@ header{
 }
 
 main{
-  width: 960px;
+  width: 100%;
   margin: 50px auto;
   display: flex;
 }
 
 .blog{
-  width: 300px;
+  width: 90%;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -71,13 +71,27 @@ footer{
   }
   main{
     widows: 100%;
-    margin:50px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: block;
   }
   .blog{
-    margin-bottom: 30px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .blog:last-child{
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
+.blog-img{
+  height: 150px;
+  background-size: cover;
+  background-position: bottom center;
+}
+footer{
+  width: 100%;
+  height: 50px;
 }
